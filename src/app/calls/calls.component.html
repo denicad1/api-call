@@ -1,0 +1,6 @@
+<p>{{ callItem.status }}</p>
+
+<app-call
+  *ngFor="let call of recipeTitles; let i = index"
+  [recipeTitle]="call"
+></app-call>
