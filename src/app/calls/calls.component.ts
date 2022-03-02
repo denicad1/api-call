@@ -16,7 +16,7 @@ export class CallsComponent implements OnInit {
     this.callServ.recipeTitle.subscribe((titles)=>{
       this.recipeTitles=titles.title;
     })
-    console.log(this.recipeTitles);
+
    
   }
 
